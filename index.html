@@ -9,25 +9,69 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-mono">
-  <header class="bg-black h-screen">
-    <nav class="p-16 flex items-ceter justify-between">
-      <a href="#" class="text-xl font-bold text-green-300">.n</a>
+  <nav class="p-16 bg-black flex items-center justify-between absolute w-full">
+    <a href="#" class="text-3xl font-bold text-green-300">.n</a>
 
-      <div class="flex space-x-2">
-        <a href="mailto:nuclbain@gmail.com" class="text-white duration-100 hover:text-green-300">contact me</a>
+    <div class="flex space-x-2">
+      <a href="mailto:nuclbain@gmail.com" class="text-white duration-100 hover:text-green-300">contact me</a>
+    </div>
+  </nav>
+  <header class="bg-black flex h-screen">
+
+    <div class="flex text-white p-16 z-10 relative items-center space-x-8">
+      <img src="./assets/img/char.png" alt="character" class="w-40 mb-8">
+
+      <div class="flex flex-col">
+        <h1 class="text-4xl mb-4 font-bold">hi there!</h1>
+        <p class="text-xl w-96">my name is Denis (aka nuclbain). I'm full stack web developer based in Uzhhorod, Ukraine</p>
       </div>
-    </nav>
-
-    <div class="flex flex-col justify-center text-white p-16">
-      <h1 class="text-4xl mb-8 font-bold">hi there!</h1>
-      <p class="text-xl w-96">my name is Denis (aka nuclbain). i'm full stack web developer based in Uzhgorod, Ukraine</p>
     </div>
 
     <div class="bg-gradient-to-br w-96 h-96 from-blue-500/80 to-yellow-500/40 rounded-full absolute scale-150 top-64 left-12 blur-2xl"></div>
   </header>
 
   <main>
+    <section class="h-screen bg-black text-white flex items-center justify-center">
+      <div class="text-center w-1/3">
+        <h2 class="text-6xl text-green-100">timeline</h2>
+        <p class="mt-2">my full full-stack developer journey</p>
+      </div>
+    </section>
 
+    <section class="h-screen bg-black text-white flex items-center justify-center">
+      <div class="w-1/3 border-l-2 h-full p-8">
+        <h2 class="text-3xl font-bold">Sep 2019 - Oct 2020</h2>
+        <h4 class="text-xl">freelance</h4>
+        <p class="mt-4">I was doing a lot of funny stuff at these times and worked with a lot of technologies. Such as PHP / HTML / CSS and started with Ruby and Ruby on Rails</p>
+      </div>
+    </section>
+
+    <section class="h-screen bg-black text-white flex items-center justify-center">
+      <div class="w-1/3 border-l-2 border-t-2 border-b-2 h-full p-8">
+        <h2 class="text-3xl font-bold">Oct 2020 - Nov 2021</h2>
+        <a href="https://plantandequipment.com" class="text-xl duration-100 hover:text-green-300" target="_blank">plantandequipment.com</a>
+        <p class="mt-4">I was working as a full-stack full-time developer implementing different new design and business features. worked with API, data parsing and code optimization and refactoring</p>
+      </div>
+
+      <div class="w-1/3 border-l-2 h-full p-8 pt-64">
+        <h2 class="text-3xl font-bold">Jan 2021 - May 2021</h2>
+        <h4 class="text-xl">freelance (NDA)</h4>
+        <p class="mt-4">Mainly worked on RESTful API</p>
+
+        <h2 class="text-3xl font-bold mt-16">Jan 2021 - Nov 2021</h2>
+        <h4 class="text-xl">freelance (NDA)</h4>
+        <p class="mt-4">Worked as full-stack developer on small app with Ruby on Rails backend and React JS on front-end</p>
+      </div>
+    </section>
+
+    <section class="h-screen bg-black text-white flex items-center justify-center">
+      <div class="w-1/3 border-l-2 h-full p-8">
+        <h2 class="text-3xl font-bold">Nov 2021 - Current</h2>
+        <a href="https://terracycle.com" class="text-xl duration-100 hover:text-green-300" target="_blank">terracycle.com</a>,
+        <a href="https://shop.terracycle.com" class="text-xl duration-100 hover:text-green-300" target="_blank">shop.terracycle.com</a>
+        <p class="mt-4">I was doing a lot of funny stuff at these times and worked with a lot of technologies. Such as PHP / HTML / CSS and started with Ruby and Ruby on Rails</p>
+      </div>
+    </section>
   </main>
 
   <footer>
